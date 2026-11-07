@@ -1,0 +1,4 @@
+web01:UP
+web02:DOWN
+db01:UP
+db02:DOWN

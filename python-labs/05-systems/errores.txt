@@ -1,0 +1,3 @@
+ERROR: Fallo de conexión a la base de datos
+ERROR: Timeout en la respuesta del servidor
+ERROR: Credenciales incorrectas

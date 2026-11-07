@@ -1,0 +1,7 @@
+INFO: Servidor iniciado correctamente
+WARNING: Poco espacio en disco
+INFO: Usuario admin conectado
+ERROR: Fallo de conexión a la base de datos
+INFO: Backup completado
+ERROR: Timeout en la respuesta del servidor
+ERROR: Credenciales incorrectas

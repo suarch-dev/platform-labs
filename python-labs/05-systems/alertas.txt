@@ -1,0 +1,5 @@
+INFO: Servidor encendido
+CRITICAL: CPU al 99%
+WARNING: RAM al 80%
+CRITICAL: Disco lleno
+INFO: Backup ok
