@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5050:5000"
+    depends_on:
+      - redis
+  redis:
+    image: "redis:alpine"
+    #if you want counter to survive
+    volumes:
+      - redis-data:/data
+volumes:
+  redis-data:

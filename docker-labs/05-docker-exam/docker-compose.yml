@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5230:5000"
+    volumes:
+      - ./logs:/app/logs
