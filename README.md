@@ -19,7 +19,7 @@ Hands-on practice managing a headless Ubuntu Server via SSH, focusing on system 
 *   **Users & Permissions**: Managed users, groups, and file permissions (`chmod`, `chown`).
 *   **Processes & Logs**: Monitored system processes (`ps`, `systemd`) and analyzed logs (`journalctl`).
 *   **Networking**: Checked interfaces, open ports, and connectivity (`ip a`, `ss`, `curl`, `ping`).
-*   **Bash Scripting**: Developed automation scripts to check directories and perform system maintenance.
+*   **Bash Scripting**: Developed automation scripts for directory checks and system maintenance.
 
 ### Phase 3: Docker & Containerization (Completed)
 Hands-on practice with Docker, moving from basic containerization to multi-container orchestration.
@@ -32,7 +32,7 @@ Hands-on practice with Docker, moving from basic containerization to multi-conta
 ## 📂 Repository Structure
 
 *   `python-labs/`: Exercises and scripts related to Python automation.
-*   `linux-labs/`: Bash scripts for system administration and maintenance.
+*   `linux-labs/`: Bash scripts and documentation for system administration.
 *   `docker-labs/`: Dockerfiles, Docker Compose configurations, and containerized applications.
 
 ## 🛠️ Tech Stack & Tools
@@ -42,10 +42,10 @@ Hands-on practice with Docker, moving from basic containerization to multi-conta
 *   **Version Control**: Git & GitHub
 *   **Environment**: Virtual Environments (`venv`), macOS, UTM
 
-## 🚀 Upcoming Phases
+## 🚀 Upcoming Phases (Market-Aligned Roadmap)
 
 *   **Phase 4**: Kubernetes (Pods, Deployments, Services, Helm, Gateway API)
 *   **Phase 5**: AWS Cloud & Terraform (IaC, VPC, EKS with Pod Identity & Karpenter)
 *   **Phase 6**: CI/CD with GitHub Actions (OIDC authentication, SHA-pinned actions)
-*   **Phase 7**: Monitoring (kube-prometheus-stack) & Certifications (AWS SAA-C03, CKA)
+*   **Phase 7**: Monitoring (`kube-prometheus-stack`) & Certifications (AWS SAA-C03, CKA)
 *   **Capstone Project**: Full-stack deployment on AWS EKS with automated CI/CD and monitoring.
