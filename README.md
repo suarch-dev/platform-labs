@@ -15,11 +15,11 @@ Development of fundamental automation scripts and API integrations.
 
 ### Phase 2: Linux Administration & Bash Scripting (Completed)
 Hands-on practice managing a headless Ubuntu Server via SSH, focusing on system administration and automation.
-*   **Lab Setup**: Provisioned a minimal Ubuntu VM using UTM and `cloud-init`.
-*   **Users & Permissions**: Managed users, groups, and file permissions (`chmod`, `chown`).
-*   **Processes & Logs**: Monitored system processes (`ps`, `systemd`) and analyzed logs (`journalctl`).
-*   **Networking**: Checked interfaces, open ports, and connectivity (`ip a`, `ss`, `curl`, `ping`).
-*   **Bash Scripting**: Developed automation scripts for directory checks and system maintenance.
+*   **01-user-management**: Creating users and managing groups (`adduser`, `usermod`).
+*   **02-file-permissions**: Managing file access (`chmod`, `chown`).
+*   **03-processes-and-logs**: Monitoring processes and reading systemd logs (`ps`, `systemctl`, `journalctl`).
+*   **04-networking**: Network interfaces, open ports, and connectivity (`ip a`, `ss`, `curl`, `ping`).
+*   **05-bash-scripts**: Automation scripts for directory checks and system maintenance.
 
 ### Phase 3: Docker & Containerization (Completed)
 Hands-on practice with Docker, moving from basic containerization to multi-container orchestration.
@@ -29,23 +29,31 @@ Hands-on practice with Docker, moving from basic containerization to multi-conta
 *   **04-docker-compose**: Multi-container orchestration using Docker Compose (Flask + Redis).
 *   **05-docker-exam**: Final practical exam. A Flask web app that logs visits to a persistent local file using volumes.
 
+### Phase 4: Kubernetes (Completed)
+Deploying and managing containerized applications using a local `k3s` cluster.
+*   **01-fundamentals**: Basic Deployments, Services, and ConfigMaps.
+*   **02-gateway-api**: Modern ingress routing using NGINX Gateway Fabric.
+*   **03-kustomize**: Managing configurations and name prefixes using Kustomize.
+*   **04-exam-app**: Final practical exam. A multi-resource deployment demonstrating namespace isolation, resource limits, and Gateway API routing.
+
 ## 📂 Repository Structure
 
-*   `python-labs/`: Exercises and scripts related to Python automation.
-*   `linux-labs/`: Bash scripts and documentation for system administration.
-*   `docker-labs/`: Dockerfiles, Docker Compose configurations, and containerized applications.
+*   `01-python-labs/`: Exercises and scripts related to Python automation.
+*   `02-docker-labs/`: Dockerfiles, Docker Compose configurations, and containerized applications.
+*   `03-linux-labs/`: Documentation and Bash scripts for system administration.
+*   `04-kubernetes-labs/`: Kubernetes manifests, Helm, and Kustomize configurations.
 
 ## 🛠️ Tech Stack & Tools
 
 *   **Languages**: Python 3, Bash
 *   **Infrastructure**: Docker, Docker Compose, Linux (Ubuntu Server)
+*   **Orchestration**: Kubernetes (k3s), Helm, Kustomize, Gateway API
 *   **Version Control**: Git & GitHub
 *   **Environment**: Virtual Environments (`venv`), macOS, UTM
 
 ## 🚀 Upcoming Phases (Market-Aligned Roadmap)
 
-*   **Phase 4**: Kubernetes (Pods, Deployments, Services, Helm, Gateway API)
 *   **Phase 5**: AWS Cloud & Terraform (IaC, VPC, EKS with Pod Identity & Karpenter)
 *   **Phase 6**: CI/CD with GitHub Actions (OIDC authentication, SHA-pinned actions)
 *   **Phase 7**: Monitoring (`kube-prometheus-stack`) & Certifications (AWS SAA-C03, CKA)
-*   **Capstone Project**: Full-stack deployment on AWS EKS with automated CI/CD and monitoring.
+*   **Capstone Project**
