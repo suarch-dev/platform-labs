@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: exam-deployment
+  namespace: exam-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: exam
+  template:
+    metadata:
+      labels:
+        app: exam
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            memory: "128Mi"
+        volumeMounts:
+        - name: html-volume
+          mountPath: /usr/share/nginx/html
+      volumes:
+      - name: html-volume
+        configMap:
+          name: exam-config
